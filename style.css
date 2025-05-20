@@ -89,6 +89,19 @@ footer {
     padding: 10px;
 }
 
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; /* Ajustar tamaño de fuente */
+    }
+    .hero h2 {
+        font-size: 1.5em; /* Ajustar tamaño de encabezado */
+    }
+    .cta {
+        padding: 8px 16px; /* Ajustar padding del botón */
+    }
+}
+
 @media screen and (max-width: 768px) {
     .benefit {
         width: 90%;
@@ -101,17 +114,5 @@ footer {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .benefit {
         width: 45%; /* Dos columnas */
-    }
-}
-/* Media query para pantallas pequeñas */
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 14px; /* Ajustar tamaño de fuente */
-    }
-    .hero h2 {
-        font-size: 1.5em; /* Ajustar tamaño de encabezado */
-    }
-    .cta {
-        padding: 8px 16px; /* Ajustar padding del botón */
     }
 }
